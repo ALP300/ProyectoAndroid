@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    tools:context=".controlador.ActSobreNosotrosCliente">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="SOBRE NOSOTROS"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/naranja"
+            android:padding="10dp"
+            android:text="SOBRE NOSOTROS"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            app:srcCompat="@drawable/sobre"
+            android:background="@color/crema"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@color/naranja"
+            android:text="Somos un restaurante Andino enfocado en brindar una experiencia agradable a nuestros clientes mediante nuestras cartas y platillos. "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:background="@color/crema"
+            android:textStyle="bold"
+            android:id="@+id/textView25"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INTEGRANTES"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+
+        <include
+        layout="@layout/lyt_principal"
+        android:layout_width="match_parent"
+        android:layout_height="355dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity ="start">
+
+        <include layout="@layout/nav_cliente" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

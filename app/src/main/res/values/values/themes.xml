@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NavDrawerNavigation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/crema</item>
+        <item name="colorPrimaryVariant">@color/crema</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secundary brand color -->
+        <item name="colorSecondary">@color/naranja</item>
+        <item name="colorSecondaryVariant">@color/naranja</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color -->
+
+    </style>
+
+</resources>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/drawer_border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@drawable/headerbkg"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="97dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    PISI MIKHUY"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="      PisiMikhuy@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inicio"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="    Inicio"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/baseline_home_24"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/listaCli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_groups_3_24"
+            android:padding="8dp"
+            android:text="    Lista de Clientes"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editarClientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_groups_3_24"
+            android:padding="8dp"
+            android:text="    Editar Clientes"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cata"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_menu_24"
+            android:padding="8dp"
+            android:text="   Catálogo"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="12dp"
+    android:background="@color/crema"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cerrar"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="    Cerrar sesión"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/baseline_logout_24"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nothing"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nothing1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nothing2"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/crema"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nothing3"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="352dp"
+            android:layout_height="match_parent"
+            android:text="   Todos los derechos reservados"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nothing4"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text=" @PisiMikhuy"
+            android:textColor="@color/black"
+            android:textSize="12dp"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="153dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/instagram" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="28dp"
+            android:layout_height="27dp"
+            android:src="@drawable/facebook" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/yt"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/youtube" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

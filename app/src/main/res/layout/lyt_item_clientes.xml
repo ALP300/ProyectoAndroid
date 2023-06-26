@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="410dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/crema"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:background="@color/crema" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="199dp"
+            android:background="@color/crema"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="11dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="197dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints">
+
+                    <TextView
+                        android:id="@+id/txtNombre"
+                        android:layout_width="135dp"
+                        android:layout_height="match_parent"
+                        android:text="Nombres"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/txtGen"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:text="Genero"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/txtFecNac"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:text="Fecha de nacimiento"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints">
+
+                    <TextView
+                        android:id="@+id/txtDocId"
+                        android:layout_width="135dp"
+                        android:layout_height="match_parent"
+                        android:text="DocId"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/txtApePat"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:text="Apellido Paterno"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/txtApeMat"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:text="Apellido Materno"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints">
+
+                    <TextView
+                        android:id="@+id/txtCorreo"
+                        android:layout_width="135dp"
+                        android:layout_height="match_parent"
+                        android:text="Correo"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/txtContra"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:text="Contraseña"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/txtNumDoc"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:text="Numero de documento"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

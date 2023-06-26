@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PisiMikhuy2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/naranja</item>
+        <item name="colorPrimaryVariant">@color/crema</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secundary brand color -->
+        <item name="colorSecondary">@color/naranja</item>
+        <item name="colorSecondaryVariant">@color/naranja</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color -->
+    </style>
+
+    <style name="Theme.PisiMikhuy2" parent="Base.Theme.PisiMikhuy2" />
+</resources>
